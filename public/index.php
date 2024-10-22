@@ -6,8 +6,13 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
-        echo "Hello World!";
-    ?>
+
+<h1>Welcome to the Home Page</h1>
+<p>This is the home page content.</p>
+<?php
+// Include the nav menu
+include 'includes/nav.php';
+?>
+
 </body>
 </html>

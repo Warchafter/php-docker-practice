@@ -44,15 +44,17 @@ If you'd like to run the code in this repository locally, follow these steps:
    git clone https://github.com/your-username/php-docker-practice.git
    cd php-docker-practice
 
-2. Build and run the Docker containers:
+2. Create a .env file (use the .env.example as template):
+
+3. Build and run the Docker containers:
 
     docker-compose up --build
 
-3. Access the PHP application in your browser:
+4. Access the PHP application in your browser:
 
     http://localhost:8080
 
-4. Access phpMyAdmin to manage the database (if applicable):
+5. Access phpMyAdmin to manage the database (if applicable):
 
     http://localhost:8081
 
